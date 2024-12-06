@@ -133,21 +133,27 @@ img {
 @media screen and (max-width: 768px) {
     .container {
         width: 768px;
- }
+    }
+}
 
- @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .container {
         width: 480px;
+    }
 
- }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+    
+
+}
 
 
 
- .row{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
+ 
 
 
 
