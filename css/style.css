@@ -130,19 +130,23 @@ img {
 
 
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 768px;
- } */
+ }
 
  @media screen and (max-width: 480px) {
     .container {
         width: 480px;
+
  }
 
- .col{
+
+
+ .row{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
  }
 
 
