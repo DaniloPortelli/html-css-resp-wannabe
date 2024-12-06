@@ -147,7 +147,10 @@ img {
         align-items: center;
      }
 
-    
+     .steps .col {
+        width: 100%;
+    }
+
 
 }
 
